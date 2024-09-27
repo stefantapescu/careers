@@ -7,10 +7,10 @@ import Link from 'next/link'
 
 const questions = [
   {
-    question: "What&apos;s your dream superpower or TV series that fits your career perspective?",
+    question: "What's your dream superpower or TV series that fits your career perspective?",
     answers: [
       { id: 'a', text: "Building gadgets to save the world or \"Silicon Valley\"" },
-      { id: 'b', text: "Time traveling to experience epic tales or \"Grey&apos;s Anatomy\"" },
+      { id: 'b', text: "Time traveling to experience epic tales or \"Grey's Anatomy\"" },
       { id: 'c', text: "Connecting with nature and animals or \"Planet Earth\"" },
       { id: 'd', text: "Capturing memories in a movie reel or \"Law & Order\"" },
       { id: 'e', text: "Persuading anyone with a speech or \"The Office\"" },
@@ -75,7 +75,7 @@ export default function AssessmentPage() {
             <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path>
             </svg>
-            <CardTitle className="text-2xl font-bold text-white">EDUAI's Career Assessment</CardTitle>
+            <CardTitle className="text-2xl font-bold text-white">EDUAI&apos;s Career Assessment</CardTitle>
           </CardHeader>
           <CardContent>
             <h3 className="text-2xl font-semibold text-white mb-8 text-center">
