@@ -4,17 +4,13 @@ import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from 'next/link'
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
-// Remove or comment out the unused import
-// import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const questions = [
   {
     question: "What's your dream superpower or TV series that fits your career perspective?",
     answers: [
       { id: 'a', text: "Building gadgets to save the world or \"Silicon Valley\"" },
-      { id: 'b', text: "Time traveling to experience epic tales or \"Grey's Anatomy\"" },
+      { id: 'b', text: "Time traveling to experience epic tales or \"Grey&apos;s Anatomy\"" },
       { id: 'c', text: "Connecting with nature and animals or \"Planet Earth\"" },
       { id: 'd', text: "Capturing memories in a movie reel or \"Law & Order\"" },
       { id: 'e', text: "Persuading anyone with a speech or \"The Office\"" },
