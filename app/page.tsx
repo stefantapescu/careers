@@ -5,6 +5,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from 'next/link'
 
+// Remove or comment out the unused import
+// import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const questions = [
   {
     question: "What's your dream superpower or TV series that fits your career perspective?",
