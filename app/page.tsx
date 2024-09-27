@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const questions = [
   {
-    question: "What's your dream superpower or TV series that fits your career perspective?",
+    question: "What&apos;s your dream superpower or TV series that fits your career perspective?",
     answers: [
       { id: 'a', text: "Building gadgets to save the world or \"Silicon Valley\"" },
       { id: 'b', text: "Time traveling to experience epic tales or \"Grey&apos;s Anatomy\"" },
